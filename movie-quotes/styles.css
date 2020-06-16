@@ -1,0 +1,42 @@
+p { 
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.line {
+    text-indent: 20px;
+}
+
+.venkman {
+    color: #322F8B;
+    font-weight: bold
+}
+
+.barrett {
+    color: #8B2F88;
+    font-weight: bold
+}
+
+.mayor {
+    color: #602F8B;
+    font-weight: bold
+}
+
+.stanz {
+    color: #2F5A8B;
+    font-weight: bold
+}
+
+.spengler {
+    color: #2F8B60;
+    font-weight: bold
+}
+
+.zeddemore {
+    color: #2F888B;
+    font-weight: bold
+}
