@@ -1,0 +1,62 @@
+html {
+    font-family: 'john-doe', sans-serif;
+    font-family: 'typeka', sans-serif;
+}
+
+h1 {
+    color: #AF2744;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: -45px;
+}
+
+h4 {
+    font-size: 40px;
+    margin-bottom: -30px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 70px;
+}
+
+h3 {
+    /* font-size: 30px;
+    font-weight: 700;
+    font-style: normal; */
+    font-size: 30px;
+    font-family: 'john-doe', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .1em;
+    color: #AF2744;
+}
+
+
+body {
+    background-image: url("http://www.pngall.com/wp-content/uploads/2016/06/Fingerprint-Transparent.png"),
+    url("https://i.dlpng.com/static/png/1484304_preview.png"), 
+    url("https://czthomas.files.wordpress.com/2014/03/crumpled-white-paper-texture-melemel-jpeg_260159.jpg");
+    background-position: right top, left bottom, left top;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-color: rgb(0, 0, 0);
+    background-size: 17%, 27%, 100%;
+}
+
+p { 
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+}
+
+header {
+    font-size: 30px;
+    line-height: 2px;
+}
+
+
+
