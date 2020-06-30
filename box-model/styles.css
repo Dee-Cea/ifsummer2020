@@ -1,0 +1,161 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    min-width: 800px;
+    margin-bottom: 0;
+    background-color: #be5749;
+}
+
+body {
+    min-width: 960px;
+}
+
+p {
+    font-size: .89rem;
+    line-height: 1.25rem;
+    /* padding-left: 240px;
+    padding-right: 240px; */
+}
+
+section {
+    padding-bottom: 30px;
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    color: #172074;
+}
+
+section {
+    display: block
+}
+
+.section-1 {
+    padding-top: 137px;
+    padding-bottom: 175px;
+    line-height: 27%;
+    background-image: url("file:///Users/egg/Desktop/ifsummer2020/publish/box-model/images/kaki-1.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+.section-2 {
+    padding-top: 2px;
+    background-color: #afddca;
+}
+
+.section-3 {
+    padding-top: 6px;
+    background-color: #88c796;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 1.5rem;
+    color: #172074;
+}
+
+.kaki {
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+    width: 100%;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.grid li {
+    display: block;
+    margin-bottom: 25px
+}
+
+.kaki-row {
+    float: left;
+    margin-right: 12px;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+    margin-block-start: .11em;
+    margin-block-end: .3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #172074;
+}
+
+li {
+    font-size: .9rem;
+    margin-inline-end: 2em;
+}
+
+.section-4 {
+    padding-top: 1.5em;
+    padding-bottom: 75px;
+    background-color: #a5e7bb;
+}
+
+.section-4 h3 {
+    margin-top: 0;
+}
+
+.section-4 p {
+    font-size: 1.3rem;
+    line-height: 1.4em;
+    text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: #3c51af;
+}
+
+.section-5 p {
+    padding-top: 1.4em;
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+    color: rgb(236, 158, 127);
+}
+
+.section-5 {
+    padding-top: 1px;
+    background-color: #b44624;
+}
+
+
+
+
+
+
+
+
+
+
+
