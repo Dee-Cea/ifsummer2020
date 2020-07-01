@@ -1,0 +1,30 @@
+
+
+
+
+body {
+    margin-left: auto; margin-right: auto;
+    width: 90%;
+    max-width: 40rem;
+    max-width: 40rem;
+}
+
+@media (min-width: 640px) {
+    html { background-color: #eaf6ff }
+}
+
+@media (max-width: 500px) {
+    h1 {font-size: 1.5rem;}
+}
+
+@media (min-width: 640px) {
+    h1 {font-size: 2.5rem;}
+}
+
+
+
+
+
+
+
+
