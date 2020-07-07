@@ -1,0 +1,113 @@
+html {
+    background-color: #ecd9d9;
+    font-size: 25px;
+    margin: 5px;
+    margin-bottom: 0;
+    font-family: hello-my-love-pro, sans-serif;
+    font-family: linotype-didot, serif;
+    font-family: chippewa-falls, sans-serif;
+    font-family: kepler-std, serif;
+}
+
+body {
+    font-family: kepler-std, serif;
+font-weight: 300;
+font-style: normal;
+    padding-left: calc(50% - 500px);
+    padding-right: calc(50% - 500px);
+    min-width: 320;
+    max-width: 960px;
+}
+
+.footer {
+    font-size: .6rem;
+    margin-top: 2rem;
+    color: #9e5f5f;
+    background-color: #e5bebe;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    padding-bottom: 0rem;
+    font-size: 3.3rem;
+    font-family: chippewa-falls, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+h2{
+    font-family: kepler-std-caption, serif;
+font-weight: 900;
+font-style: normal;
+    font-size: 1.4rem;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+
+h3 {
+    font-family: chippewa-falls, sans-serif;
+font-weight: 500;
+font-style: normal;
+    font-size: 1.1rem;
+    margin-bottom: -.4rem;
+}
+
+#ingredients h3 {
+    margin-bottom: -.6rem;
+}
+
+#instructions {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+#instructions ul {width: 100%;}
+
+#ingredients ul {
+    padding-left: 0;
+    line-height: 2em;
+}
+
+#ingredients li {
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 15em;
+}
+
+#steps ul {
+    margin-right: 0;
+}
+
+#steps li {
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+    #ingredients, #steps {width: 100%;}
+}
+
+@media (min-width: 640px) {
+    #ingredients, #steps {width: 50%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
