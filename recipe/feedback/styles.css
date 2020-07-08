@@ -1,0 +1,125 @@
+html {
+    background-color: #ecd9d9;
+    font-size: 25px;
+    font-family: hello-my-love-pro, sans-serif;
+    font-family: chippewa-falls, sans-serif;
+    font-family: kepler-std, serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body {
+    max-width: 980px;
+    min-width: 320px;
+    width: 90%;
+    font-family: kepler-std, serif;
+font-weight: 300;
+font-style: normal;
+    padding-bottom: 0;
+    color: #5d6c72;
+}
+
+p {
+    font-family: kepler-std, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 0.8rem;
+}
+
+
+h1 {
+    padding-bottom: 0rem;
+    font-size: 3.3rem;
+    font-family: chippewa-falls, sans-serif;
+font-weight: 500;
+font-style: normal;
+    margin-top: 0;
+    color: #3f4d53;
+}
+
+h3 {
+    font-family: chippewa-falls, sans-serif;
+font-weight: 500;
+font-style: normal;
+    font-size: 1.1rem;
+    margin-bottom: -1.5rem;
+    color: #3f4d53;
+}
+
+#steps h3 {
+    margin-left: 1.8em;
+}
+
+h3::before {
+    content: "r";
+    font-family: hello-my-love-ornaments, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 0rem;
+    color: #697980;
+}
+
+h4{
+    font-family: hello-my-love-ornaments, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10rem;
+    margin: 0;
+    padding: 0;
+    padding-bottom: -20%;
+    margin-top: -5.5rem;
+    margin-bottom: -12rem;
+    color: #697980;
+    padding-left: .7em;
+}
+
+#footer {
+    font-size: .6rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    color: #9e5f5f;
+}
+
+#instructions {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+#instructions ul {width: 100%;}
+
+#ingredients ul {
+    padding-left: 0;
+    line-height: 1.4em;
+}
+
+#ingredients li {
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+}
+
+#steps ul {
+    margin-right: 0;
+    padding: 0;
+    margin-left: 3em;
+}
+
+#steps li {
+    display: block;
+    flex-wrap: wrap;
+}
+
+
+
+@media (min-width: 640px) {
+    #ingredients, #steps {width: 50%;}
+}
+
+
