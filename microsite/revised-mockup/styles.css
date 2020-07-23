@@ -1,0 +1,15 @@
+
+
+
+
+
+.desktop {
+    max-width: 100%;
+}
+
+.mobile {
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+  margin-right: auto;
+}
